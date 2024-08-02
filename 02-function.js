@@ -34,8 +34,8 @@ console.log("=============function with arguments and return value==========");
 
 function square(num) {
     console.log("Given number of square is :", num);
-    var result = num*num;
+    var result = num * num;
     return result;
 }
 var returnValue = square(5);
-console.log("Square is",returnValue);
+console.log("Square is", returnValue);
