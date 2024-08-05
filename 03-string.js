@@ -55,7 +55,7 @@ var dayAfterTrimLength= dayAfterTrim.length;
 console.log("After string trim length is: ", dayAfterTrimLength);
 console.log(dayAfterTrim);
 
-console.log("Total removed character: leading and trailing- ",dayLength- dayAfterTrimLength);
+console.log("Total number of extra spaces count is :",dayLength- dayAfterTrimLength);
 
 console.log("============= includes() ===============------------");
 var result = greet.includes("Mor");
@@ -75,6 +75,8 @@ console.log(result);
 console.log("Total number of words: ", result.length);
 
 var myLove = "I love only JavaScript";
+
+
 var result = myLove.split(" ");
 console.log(result);
 console.log("Total number of words: ", result.length);
@@ -82,3 +84,12 @@ console.log("Total number of words: ", result.length);
 console.log(` Given sentence - ${myLove} Total number of words ${result}`);
 
 console.log(`I love only "JavaScript" `);
+
+
+console.log("-----------------------------String Template--------------------------------------");
+
+console.log(`I love only "JavaScript"`);
+var city = "Pune";
+var country = "India";
+console.log(`My city name is: ${city} and country is : ${country}`);
+
