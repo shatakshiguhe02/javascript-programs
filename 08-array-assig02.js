@@ -50,7 +50,7 @@ console.log(`10.  Is Number 115 available in the array : ${result}`);
 
 console.log(`=======================================================================`);
 let number = arrayNumbers.includes(23);
-console.log(`11.  Is Number 115 available in the array : ${number}`);
+console.log(`11.  Is Number 23 available in the array : ${number}`);
 
 console.log(`=======================================================================`);
 arrayNumbers.splice(3, 0, 55, 66)
