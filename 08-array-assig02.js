@@ -50,12 +50,12 @@ console.log(`10.  Is Number 115 available in the array : ${result}`);
 
 console.log(`=======================================================================`);
 let number = arrayNumbers.includes(23);
-console.log(`10.  Is Number 115 available in the array : ${number}`);
+console.log(`11.  Is Number 115 available in the array : ${number}`);
 
 console.log(`=======================================================================`);
 arrayNumbers.splice(3, 0, 55, 66)
-console.log(`10.  Insert Number     : ${arrayNumbers}`);
+console.log(`12.  Insert Number     : ${arrayNumbers}`);
 
 console.log(`=======================================================================`);
 arrayNumbers.splice(4, 3);
-console.log(`11.  After Delete 3 elements from index 4 : ${arrayNumbers}`);
+console.log(`13.  After Delete 3 elements from index 4 : ${arrayNumbers}`);
