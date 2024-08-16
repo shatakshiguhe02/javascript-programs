@@ -33,7 +33,7 @@ for (const element of personSkills) {
 }
 
 console.log(`==== Marks ===============================`);
-console.log(`English marks: ${person.marks.english}`);
+console.log(`English marks: ${person.marks.English}`);
 
 
 console.log(`======== Update ========================== `);
@@ -44,6 +44,8 @@ console.log(person);
 
 console.log(`======== Add new property  =============== `);
 person.country = "India";
+console.log(person);
+
 
 console.log(`======== Traversing ======================`);
 for (const key in person) {
