@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session storage</title>
+</head>
+<body>
+    <h2>Websession Storage demo</h2>
+    <h2>Session Storage</h2>
+    <script>
+        console.log("session storage");  
+        // window.sessionStorage.emp_name = "Elon Musk"; // or the below second option to set
+        window.sessionStorage.setItem("firstName", "Shatakshi");
+        window.sessionStorage.setItem("lastName", "Guhe");
+        window.sessionStorage.setItem("city", "pune");
+        window.sessionStorage.setItem("runs", "260000");
+       
+        console.log(window.sessionStorage.length);
+        console.log(window.sessionStorage.getItem("firstName"));//op:shatakshi
+        console.log(window.sessionStorage.getItem("country")); //output:null
+        console.log(window.sessionStorage.getItem("lastName"));
+        // window.sessionStorage.removeItem("runs");
+        // window.sessionStorage.removeItem("clear");
+        console.log("session storage");
+    </script>
+</body>
+</html>

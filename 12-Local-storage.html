@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+</head>
+
+<body>
+    <h2>webLocal Storage demo</h2>
+    <h3>Local storage</h3>
+    <script>
+        // window.localStorage.emp_name = "Shatakshi";//optional method same as below
+        window.localStorage.setItem("firstName", "Shatakshi");
+        window.localStorage.setItem("lastName", "Guhe");
+        window.localStorage.setItem("country", "India");
+        window.localStorage.setItem("runs", "25000");
+        window.localStorage.setItem("age", "26");
+
+        console.log(window.localStorage.length);
+        console.log(window.localStorage.getItem("lastName"));
+        console.log(window.localStorage.getItem("country"));//op:india
+        console.log(window.localStorage.getItem("city"));//op:null  
+
+        window.localStorage.removeItem("runs");
+        console.log("Local storage");
+
+    </script>
+</body>
+
+</html>
