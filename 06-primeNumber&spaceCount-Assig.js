@@ -45,10 +45,13 @@ function spaceCount(string){
    return count;
 }
 const string1 = "Revision is the mother of success";
-const string2 = "JavaScript is the language of internet world";
-
+console.log(`Given string is : ${string1}`);
 const result1 = spaceCount(string1);
-const result2 = spaceCount(string2);
-
 console.log(`Total number of space in First string is  : ${result1}`);
+
+const string2 = "JavaScript is the language of internet world";
+console.log(`Given string is : ${string2}`);
+const result2 = spaceCount(string2);
 console.log(`Total number of space in second string is : ${result2}`);
+
+
