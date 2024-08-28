@@ -67,23 +67,3 @@ for (const element of array) {
         console.log(`Employee Details  are    -> EmployeeName : ${element.emp_name}, EmployeeId : ${element.emp_id}, EmployeeDept: ${element.emp_dept}, EmployeeSalary: ${element.emp_salary}, EmployeeCompany: ${element.emp_company}`);
     }
 }
-// ==============
-//Find the average salary of employee from company Wipro.
-// const wiproEmployees = arrayEmployee.filter((employee)=>{
-//     return employee.emp_company=="wipro";
-// });
-// console.log(wiproEmployees[0]);
-// console.log(wiproEmployees[1]);
-
-// const wiproEmpSalary = wiproEmployees.map( (employee)=>{
-//     return employee.emp_salary;
-// });
-// console.log(wiproEmpSalary);
-// let salarySum = 0;
-// for (const element of wiproEmpSalary) {
-//     salarySum = salarySum + element;
-// }
-// console.log(`Salary Sum is: ${salarySum}`);
-// let averageSalary = salarySum / wiproEmpSalary.length
-
-// console.log(`Average salary is: ${averageSalary}`);
