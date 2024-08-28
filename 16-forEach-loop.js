@@ -16,14 +16,24 @@ mySet.forEach( (element)=>{
     console.log(element);
 } );
 
-console.log(`Traversing Map collection`);
+console.log(`Traversing Map collection`); //to store multiple elements we use the concept map 
 const myMap = new Map();
-myMap.set("A", "Jenny");
+myMap.set("name", "Jenny"); // key : value pair using set() method
 myMap.set("B", "Stew");
 myMap.set("C", "Elon");
 myMap.set("B", "Bill");
-const cGradeStudent = myMap.get("C");
+const cGradeStudent = myMap.get("name"); // only to get key use get() method
 console.log(cGradeStudent);
 myMap.forEach( (value, key)=>{
     console.log(value, key);
 } );
+
+// traverse --------------------
+let oneSet = new Set();
+oneSet.add(10);
+oneSet.add(100);
+oneSet.add(1000);
+oneSet.add(10000);
+oneSet.forEach((element)=>{
+    console.log(element);  
+})
