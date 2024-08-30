@@ -18,11 +18,12 @@ console.log(arrayThree);
 console.log(`==== Array of numbers ===`);
 const arrayFour = [10, 2, 900, 30, 4, 7];
 console.log(arrayFour);
+
 console.log(`==== Sorting array of numbers in ascending order ====== `);
 const arrayFive = arrayFour.sort();
 console.log(arrayFive);
 
-console.log(`Writing our custom logic for sort() method `);
+console.log(`Writing our custom logic for sort() method for the above numbers`);
 const arraySix = arrayFour.sort( (n1, n2)=>{
     return n1>n2 ? 1 : -1; 
 });
