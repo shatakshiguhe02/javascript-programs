@@ -61,7 +61,7 @@ function duplicateChar(word) {
     for (let i = 0; i < string.length; i++) {
         let element = string[i];
         countChar[element] = (countChar[element] || 0) + 1;
-        console.log(`element : ${element},  countChar[element]: ${countChar[element]}`);
+        // console.log(`element : ${element},  countChar[element]: ${countChar[element]}`);
     }
 
     let duplicates = {};
