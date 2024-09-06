@@ -29,3 +29,4 @@ const [a0,a1, a2, a3, a4, a5=0] = array;
 // let n4 = array[3];
 // let n5 = array[4];
 console.log(a0,a1, a2, a3, a4, a5);
+
