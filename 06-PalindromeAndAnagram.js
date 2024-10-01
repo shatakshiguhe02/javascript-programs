@@ -13,6 +13,10 @@ function checkPalindrom(str1,str2,str3) {
 }
 checkPalindrom("madam", "dad", "hello");
 
+
+
+
+
 console.log(` `);
 console.log(`====Write a function to check weather the string is Anagram or not==========`);
 function isAnagram(str1,str2) {

@@ -10,7 +10,7 @@ class Person {
 
 class Student extends Person {
     constructor(graduation, fullName, age, profession) {
-        super(fullName,age, profession);
+        super(fullName,age, profession);        // super is a reference varaible use to refer the parent class object
         this.graduation = graduation;
     }
 }
